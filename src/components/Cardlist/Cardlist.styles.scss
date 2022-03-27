@@ -1,0 +1,23 @@
+.cardlist {
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  column-gap: 4em;
+  flex-wrap: wrap;
+  border-radius: 19px;
+  position: relative;
+}
+.cardlist::before {
+  content: "";
+  border-radius: 19px;
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-color: rgb(96, 73, 245);
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
